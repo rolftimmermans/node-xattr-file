@@ -5,7 +5,7 @@
   },
 
   "name": "xattr-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create AppleDouble files with NodeJS – useful to preserve OS X extended attributes in zip files or on non-HFS+ volumes",
   "homepage": "https://github.com/rolftimmermans/node-xattr-file",
   "license": "MIT",
@@ -21,7 +21,7 @@
   },
 
   "dependencies": {
-    "bufferpack": "https://github.com/rolftimmermans/bufferpack/archive/master.tar.gz"
+    "bufferpack": "https://github.com/ryanrolds/bufferpack/archive/master.tar.gz"
   },
 
   "devDependencies": {
