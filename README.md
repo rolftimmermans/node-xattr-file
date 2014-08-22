@@ -9,17 +9,18 @@ The format of xattr files is the legacy AppleDouble format, that contains a
 "Finder Info" resource fork, which in turn contains extended attributes. OS X
 ignores all other information in the AppleDouble file.
 
-    ```
+Installing
+----------
+
     npm install xattr-file
-    ```
 
 
-    :::javascript
-    ```
+Using
+-----
+
     var xattr = require("xattr-file");
     var buffer = xattr.create({
       "com.example.Attribute": "my data"
     });
 
     /* Use buffer in zip file, or write to __MACOSX/._file. */
-    ```
