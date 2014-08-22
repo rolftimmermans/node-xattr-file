@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Rolf W. Timmermans",
+    "email": "rolftimmermans@voormedia.com"
+  },
+
+  "name": "xattr-file",
+  "version": "0.0.1",
+  "description": "Create AppleDouble files with NodeJS – useful to preserve OS X extended attributes in zip files or on non-HFS+ volumes",
+  "homepage": "https://github.com/rolftimmermans/node-xattr-file",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rolftimmermans/node-xattr-file.git"
+  },
+
+  "main": "lib/xattr-file.js",
+
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --reporter list"
+  },
+
+  "dependencies": {
+    "bufferpack": "https://github.com/rolftimmermans/bufferpack/archive/master.tar.gz"
+  },
+
+  "devDependencies": {
+    "chai": "1.x",
+    "mocha": "1.x"
+  }
+}
